@@ -1,8 +1,27 @@
 aid: marcopolo-learning
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marcopolo-learning.png
 name: Marcopolo Learning
-description: Marcopolo Learning is a company surfaced as a portfolio company of seedcamp and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  MarcoPolo Learning is an award-winning early childhood education technology company, founded in
+  2013, that builds premium video content, instructional support, and learning apps for preschool
+  and kindergarten. Its products include MarcoPolo For Educators (curriculum-aligned classroom video
+  and educator guides), MarcoPolo For Families (Emmy-nominated videos plus literacy and math games),
+  MarcoPolo World School (kindergarten readiness), MarcoPolo Professional Development for teachers,
+  and The Polos animated series. The company was surfaced as a Seedcamp portfolio company and added
+  to the API Evangelist network. As of this enrichment pass MarcoPolo Learning publishes no public
+  API, developer portal, or machine-readable developer surface; it is a consumer/educator app
+  business, so this profile carries company identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/marcopolo-learning/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Early Childhood Education
+- Learning
+- Mobile Apps
+- Content
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://marcopololearning.com
+  url: https://marcopololearning.com
+- type: Blog
+  url: https://marcopololearning.com/blog
+- type: SignUp
+  url: https://marcopololearning.com/login
+- type: Support
+  url: https://marcopololearning.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://marcopololearning.com/privacy-policy
+- type: TermsOfService
+  url: https://marcopololearning.com/parent-terms-of-service
+- type: DomainSecurity
+  url: security/marcopolo-learning-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
